@@ -1,1 +1,6 @@
+# ESP32 CPU Frequency Test
 
+This example demonstrates how to read and modify the **ESP32 CPU clock frequency** using Arduino functions. 
+One program sets the CPU frequency to **10 MHz** using `setCpuFrequencyMhz()` and prints the CPU, XTAL, and APB frequencies.
+The second program reads and prints the default system frequencies without changing them. A GPIO pin is toggled continuously to observe timing differences when the CPU frequency changes. 
+This example helps understand **clock configuration and performance scaling in ESP32**.

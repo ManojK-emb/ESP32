@@ -1,1 +1,5 @@
+# ESP32 Deep Sleep with External Wake-Up
 
+This repository contains simple examples demonstrating "ESP32 deep sleep mode" with external wake-up sources. The examples show how to reduce power consumption by putting the ESP32 into deep sleep and waking it using 
+GPIO interrupts. Different wake-up methods such as **EXT0 and EXT1** are demonstrated using push buttons.The code also illustrates the use of "RTC memory variables" to retain data across sleep cycles. These examples
+are useful for learning low-power design techniques for IoT and embedded systems. Feel free to use and modify the examples for your own projects.
